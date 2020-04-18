@@ -1,0 +1,103 @@
+* {box-sizing: border-box;}
+html { height: 100%; display: flex; }
+
+body
+{
+  font-family: Roboto;
+  background-color: #DDDDDD;
+  margin: auto;
+}
+
+.title{
+  text-align: center;
+}
+
+.input--text::placeholder
+{
+  color: #ccc;
+}
+
+.input--text,.input--search
+{
+  font-size: 1em;
+  width: 100%;
+  padding: 0.4em;
+  border: none;
+  margin-bottom: 1em;
+  border-radius: 25px;
+  background: #E1E8FF;
+  text-align: center;
+}
+
+.input--search
+{
+  background: #EBE7E7;
+  color: #A19F9F;
+}
+
+.app
+{
+  background-color: white;
+  width: 400px;
+  box-shadow: 0px 0px 1em #ccc;
+  font-size: 1.25em;
+  padding: 1em;
+}
+
+.coins
+{  
+  
+}
+
+.coin
+{
+  border-top: 1px solid #ddd;
+  color: #1E70EA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+.btn
+{
+  font-size: 1em;
+  padding: 0.5em;
+  font-weight: bold;
+  border-radius: 0.2em;
+  border: none;
+  color: white;
+  background-color: #1E70EA;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 100%;
+}
+
+
+.btn:active
+{
+  position: relative;
+  top: 1px;
+}
+
+.hidden
+{
+  display:none;
+}
+
+.alert
+{
+  background-color: #B4C4E7;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  color: #32549d;
+}
